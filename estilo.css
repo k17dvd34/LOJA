@@ -1,5 +1,45 @@
-.{
-    box-sizing: border-box;
-}   
+head {
+    display: none;
+}
+body {
+    background-color: black;
+    font-family: fantasy;
+    font-size: 20px;
+    color: white;
+}
+.topo {
+    background-color: white;
+    padding: 20px;
+    font-size: 20px;
+    height: 190px;
+}
+.titulo {
+    text-align: center;
+}
+header {
+    display: block;
+}
+.botao {
+    background-color: white;
+    color: black;
+
+}
+li{
+    list-style: none;
+    height: 20px;
+}
+li a{
+    
+    color:red;
+}
+
+
+
+
+
+    
+
+
+
 
 
