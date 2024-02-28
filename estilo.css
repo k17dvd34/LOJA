@@ -1,24 +1,26 @@
-head {
-    display: none;
+*{
+    margin: 0;
+    box-sizing: border-box;
 }
+
+
 body {
     background-color: black;
     font-family: fantasy;
-    font-size: 20px;
     color: white;
 }
 .topo {
     background-color: white;
-    padding: 20px;
-    font-size: 20px;
-    height: 190px;
+    padding: 2px;
+    font-size: 15px;
+
 }
 .titulo {
     text-align: center;
+    font-size: 20px;
 }
-header {
-    display: block;
-}
+
+
 .botao {
     background-color: white;
     color: black;
@@ -26,20 +28,70 @@ header {
 }
 li{
     list-style: none;
-    height: 20px;
+margin-bottom: 15px;
 }
 li a{
     
     color:red;
+   
+}
+.texto {
+    color: white;
+    text-align: justify;
+}
+.navegação {
+    
+   
 }
 
 
-
-
-
+.grade{
     
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding: 20px;
+
+}
+
+.jogos img {
+
+max-width: 100%;
+border-radius: 20px;
+display: flex;
+margin-bottom: 20px;
+
+}   
+
+.jogos {
+
+    padding: 20px;
+}
+
+.jogos p {
+
+    color: rgb(255, 255, 255);
+padding-left: 110px;
+}
+
+.jogos a {
+
+text-decoration: none;
+
+}
 
 
+.menu li {
+
+display: flex;
+display:inline;
+margin-left: 20px;
+
+}
 
 
+.menu img {
+
+width: 10%;
+
+}
 
