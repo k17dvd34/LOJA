@@ -1,0 +1,172 @@
+
+* {
+
+    box-sizing: border-box;
+}
+
+
+.topo {
+
+background-color: darkred;
+
+}
+
+
+.body {
+
+background-color: black;
+font-size: 40px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+color: rgb(221, 235, 30);
+padding-bottom: 40px;
+
+}
+
+
+.rodape {
+
+padding-top: 100px;
+background-color: rgb(3, 74, 102);
+
+}
+
+.botao2 {
+
+color: azure;
+
+}
+
+.rotulo {
+
+    display: block;
+    padding: 10px;
+}
+
+.campo {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(181, 184, 182);
+
+}
+
+.botao {
+
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.contato {
+
+    background-color: rgb(151, 13, 13);
+    padding: 30px;
+    max-width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 60px;
+
+}
+
+
+select {
+
+
+    margin-left: 10px;
+}
+
+.titulo {
+
+text-align: center;
+font-size: 30px;
+
+}
+
+textarea.campo {
+
+height: 150px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding-top: 10px;
+
+}
+
+.rodape a:hover {
+
+color: aqua;
+
+}
+
+.campo:focus {
+
+background-color: rgb(255, 255, 255);
+
+}
+
+.navegação {
+
+color: rgb(209, 212, 11);
+
+}
+
+
+
+
+@media (min-width: 768px) {
+
+ .contato {
+
+        background-color: rgb(13, 151, 151);
+        padding: 100px;
+        width: 35%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+.titulo {
+
+font-size: 40px;
+
+}
+
+.navegador a {
+    color: rgb(209, 212, 11);
+    
+
+}
+
+
+
+}
+
+.botao3 {
+
+font-size: 30px;
+
+}
+
+@media(min-width: 1366px) {
+
+.navegador {
+text-align: left;
+font-size: 20px;
+
+
+}
+
+}
+
+.navegador img {
+
+width: 20%;
+
+}
